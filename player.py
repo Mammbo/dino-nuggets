@@ -28,6 +28,10 @@ class Player:
     def duck(self):
         if not self.ducking:
             self.ducking = True
+    # arops ducking lol
+    def stop_duck(self):                                                          
+      self.ducking = False 
+    
     # handel jump arc (gravity)
     def update(self):
         if self.jumping: 
